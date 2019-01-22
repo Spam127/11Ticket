@@ -11,9 +11,15 @@ function clean(text) {
 const prefix = "#";
 const token = "NTMzNjc4ODgyNDM2Njc3NjMz.Dyjnjw.w6yUt-jQN89MuIJU2fdrih_5DS4";
 
-client.on("ready", () => {
-  console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`#new | Aventure Server `);
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`skran`);
+        console.log(`---------------`);
+      console.log(`ON ${client.guilds.size} Servers `);
+    console.log(`---------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setGame(`| #new |Aventure Ticket`,"http://twitch.tv/y04zgamer")
+   client.user.setStatus("dnd")
 });
 
 
